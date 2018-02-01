@@ -190,7 +190,9 @@ list. (What's a sensible return value for the empty list?)
 ......................................................................*)
 
 let sum (lst : int list) : int =
-  failwith "sum not implemented" ;;
+  match lst with
+  | [] -> 0
+  | h :: t -> h + sum t;;
   
 (*......................................................................
 Exercise 8: Define a recursive function that returns the maximum
