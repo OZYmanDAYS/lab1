@@ -193,6 +193,8 @@ let rec sum (lst : int list) : int =
   match lst with
   | [] -> 0
   | h :: t -> h + sum t;;
+
+ let exercise7 = sum [3;4;5];;
   
 (*......................................................................
 Exercise 8: Define a recursive function that returns the maximum
