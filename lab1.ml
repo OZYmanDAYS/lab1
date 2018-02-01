@@ -99,7 +99,7 @@ appropriate OCaml expression to assign the value to the variable
 exercise1 below.
 ......................................................................*)
 
-let exercise3 () = (3-5) * -1 ;;
+let exercise3 () = -(5-3) ;;
 
 (* Hint: The OCaml concrete expression
 
